@@ -6,10 +6,11 @@ Data Toolkit using Noj. It is for the most part a clone of the
 
 # Requirements
 
-- Clojure ([install guide](https://clojure.org/guides/install_clojure)])
+- Clojure ([install guide](https://clojure.org/guides/install_clojure))
 - VSCode ([download](https://code.visualstudio.com/download))
-  - Extension: Calva 
-  - Extension: Calva Power Tools
+  - Within VSCode install the extensions:
+  - Calva 
+  - Calva Power Tools
 
 # Setup Steps
 
@@ -33,6 +34,6 @@ Data Toolkit using Noj. It is for the most part a clone of the
     - Do this with either
       - `Ctrl+c Ctcl-Enter`
       - From the cmd palette: "Calva: Evaluate Top Level Form (defun) to Comment
-  - You should see somethign like:
+  - You should see something like:
 
     ![](test-output.png)
