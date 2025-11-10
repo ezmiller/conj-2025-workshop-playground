@@ -34,3 +34,4 @@ Data Toolkit using Noj. It is for the most part a clone of the
       - `Ctrl+c Ctcl-Enter`
       - From the cmd palette: "Calva: Evaluate Top Level Form (defun) to Comment
 
+    ![](test-output.png)
