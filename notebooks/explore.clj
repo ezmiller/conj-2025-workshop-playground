@@ -19,6 +19,11 @@
        (jt/local-date src-fmt)
        (#(jt/adjust % :first-day-of-month))))
 
+(defn ->month [date-str]
+  (->> date-str
+       (jt/local-date src-fmt)
+       (jt/month)))
+
 (def top-five-requests
   (-> workshop-data
       (tc/group-by :REQUEST_TYPE)
